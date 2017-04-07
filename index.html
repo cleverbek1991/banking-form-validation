@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking Form</title>
+	<link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+	<div id="wrapper">
+		<h1>Loan Application Form</h1>
+		<form>
+			<ol>
+				<li>First Name:<br>
+				<input type="text" name="firstname"><br></li>
+				<li>Middle Name:<br>
+				<input type="text" name="middlename"><br></li>
+				<li>Last Name:<br>
+				<input type="text" name="lastname"><br></li>
+				<li>Adress:<br>
+				<input type="text" name="adress"><br></li>
+				<li>Occupation:<br>
+				<input type="text" name="occupation"><br></li>
+				<li>Employer:<br>
+				<input type="text" name="employer"><br></li>
+				<li>Employer Adress:<br>
+				<input type="text" name="employeradress"></li>
+				<li>Type of Loan:<br>
+				<input type="radio" name="loan" value="Commercial">Commercial<br>
+				<input type="radio" name="loan" value="realestate">Real Estate<br>
+				<input type="radio" name="loan" value="personal">Personal<br>
+				<input type="radio" name="loan" value="mortgage">Mortgage<br></li>
+				<li>Amount of Loan:<br>
+				$<input type="number" name="amount"><br></li>
+				<li>Loan Lenght:<br>
+				<input type="radio" name="lenght">5 Years<br>
+				<input type="radio" name="lenght">10 Years<br>
+				<input type="radio" name="lenght">15 Years<br></li>
+				<li>Special Condition:<br>
+				<input type="checkbox" name="downpayment">I Have Down Payment<br>
+				<input type="checkbox" name="resident">Out of State Resident<br>
+				<input type="checkbox" name="married">Married<br>
+				<input type="checkbox" name="cosigner">Loan will be Co-signer<br></li>
+				<li><textarea name="message" rows="1" cols="30"></textarea><br></li>
+				<li>Email:<br>
+				<input class="valid" type="email" name="email" required><br></li>
+				<li>Telephone Number:<br>
+				<input type="tel" name="usertel"><br></li>
+				<li>LinkedIn URL:<br>
+				<input class="valid" type="url" name="linkedin" required><br></li>
+			</ol>
+		</form>
+	</div>
+</body>
+</html>
